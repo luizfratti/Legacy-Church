@@ -1,0 +1,691 @@
+<!doctype html>
+<html lang="pt-BR" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Batista Legacy Church: vivendo o legado de Cristo | Pinhal · São João · São Paulo</title>
+  <meta name="description" content="Batista Legacy Church: uma igreja intencional, relacional e social em Espírito Santo do Pinhal, São João da Boa Vista e São Paulo. Horários dos cultos, GCs, ministérios, pastores e como contribuir.">
+  <!-- DEPLOY: enquanto for só PROPOSTA, o site fica fora do Google (noindex).
+       Quando a igreja aprovar, apague esta linha e o header X-Robots-Tag no vercel.json. -->
+  <meta name="robots" content="noindex, nofollow">
+
+  <!-- DEPLOY: troque https://batista-legacy-church.vercel.app pelo domínio final (batistalegacychurch.com.br) aqui, no sitemap.xml e no robots.txt -->
+  <link rel="canonical" href="https://batista-legacy-church.vercel.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Batista Legacy Church">
+  <meta property="og:url" content="https://batista-legacy-church.vercel.app/">
+  <meta property="og:title" content="Batista Legacy Church: vivendo o legado de Cristo">
+  <meta property="og:description" content="Intencional, relacional e social. Três casas, uma só visão: Espírito Santo do Pinhal, São João da Boa Vista e São Paulo.">
+  <meta property="og:image" content="https://batista-legacy-church.vercel.app/assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="A cruz sobre o monte: Batista Legacy Church">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0F1626">
+  <link rel="icon" href="assets/img/icon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/img/icon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Church",
+    "name": "Batista Legacy Church",
+    "url": "https://batista-legacy-church.vercel.app/",
+    "logo": "https://batista-legacy-church.vercel.app/assets/img/icon-512.png",
+    "image": "https://batista-legacy-church.vercel.app/assets/img/og-image.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "R. Fioravante Bastone, 20 - Jardim Lélia",
+      "addressLocality": "Espírito Santo do Pinhal",
+      "addressRegion": "SP",
+      "addressCountry": "BR"
+    },
+    "sameAs": [
+      "https://www.instagram.com/batistalegacychurch/",
+      "https://www.instagram.com/batistalegacychurchsj/",
+      "https://www.instagram.com/batistalegacychurchsaopaulo/"
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=Homemade+Apple&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.replace("no-js", "js");</script>
+</head>
+<body>
+
+  <!-- ============ ÍCONES (sprite) ============ -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="mark" viewBox="0 0 64 48"><g fill="none" stroke="currentColor" stroke-linecap="round"><path d="M4 44C17 29 47 29 60 44" stroke-width="4.4"/><path d="M31 5l1.5 26" stroke-width="4.8"/><path d="M21 16.5l20.5-2.9" stroke-width="4"/></g></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.1-7-11a7 7 0 0 1 14 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+      <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+      <symbol id="i-back" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol>
+      <symbol id="i-home" viewBox="0 0 24 24"><path d="M3.5 11 12 4l8.5 7v8.5a1 1 0 0 1-1 1H15v-6H9v6H4.5a1 1 0 0 1-1-1z"/></symbol>
+      <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M16 4.5a3.5 3.5 0 0 1 0 7M18 14.5a6 6 0 0 1 3.5 5.5"/></symbol>
+      <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-9.3-9.2C1.5 7.6 3.6 4.5 7 4.5c2 0 3.3 1.1 5 3 1.7-1.9 3-3 5-3 3.4 0 5.5 3.1 4.3 6.3C19.5 15.4 12 20 12 20z"/></symbol>
+      <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="3"/><path d="M3.5 10h17M8 3v4M16 3v4"/></symbol>
+      <symbol id="i-coin" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 6.5v11M14.6 9.3c-.3-1-1.3-1.6-2.6-1.6-1.5 0-2.6.8-2.6 2s1.1 1.7 2.6 2 2.6.8 2.6 2-1.1 2-2.6 2c-1.3 0-2.3-.6-2.6-1.6"/></symbol>
+      <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5.5h16v10.5H9.5L5 20v-4H4z"/></symbol>
+      <symbol id="i-cross" viewBox="0 0 24 24"><path d="M12 3v18M6.5 8.5h11"/></symbol>
+      <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8.5" y="8.5" width="12" height="12" rx="3"/><path d="M15.5 8.5V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v7.5a2 2 0 0 0 2 2h2.5"/></symbol>
+      <symbol id="i-house" viewBox="0 0 24 24"><path d="M4 10.5 12 4l8 6.5M6 9v11h12V9M10 20v-5h4v5"/></symbol>
+      <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+      <symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="6" r="2.5"/><path d="M8.5 18H15a3 3 0 0 0 0-6H9a3 3 0 0 1 0-6h6.5"/></symbol>
+    </defs>
+  </svg>
+
+  <!-- ============ ABERTURA ============ -->
+  <div class="intro" aria-hidden="true">
+    <svg class="intro__mark"><use href="#mark"/></svg>
+    <p class="intro__word"><span>L</span><span>E</span><span>G</span><span>A</span><span>C</span><span>Y</span></p>
+  </div>
+
+  <!-- ============ HEADER ============ -->
+  <header class="top">
+    <a href="#inicio" class="brand" aria-label="Batista Legacy Church: início">
+      <svg class="brand__mark" aria-hidden="true"><use href="#mark"/></svg>
+      <span class="brand__txt"><small>Batista</small>Legacy · Church</span>
+    </a>
+    <nav class="links" aria-label="Menu principal">
+      <a href="#unidades">Unidades</a>
+      <a href="#quem-somos">Quem somos</a>
+      <a href="#pastores">Pastores</a>
+      <a href="#ministerios">Ministérios</a>
+      <a href="#gcs">GCs</a>
+      <a href="#legado">Agenda</a>
+      <a href="#contribua">Contribua</a>
+    </nav>
+    <a href="#unidades" class="btn btn--light btn--sm top__cta">Planeje sua visita <span class="btn__ico"><svg class="i"><use href="#i-arrow"/></svg></span></a>
+    <button class="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-overlay"><span></span><span></span></button>
+  </header>
+
+  <!-- menu em tela cheia (mobile) -->
+  <div class="overlay" id="menu-overlay" aria-hidden="true">
+    <nav aria-label="Menu">
+      <a href="#unidades"><i>01</i>Unidades</a>
+      <a href="#quem-somos"><i>02</i>Quem somos</a>
+      <a href="#pastores"><i>03</i>Pastores</a>
+      <a href="#ministerios"><i>04</i>Ministérios</a>
+      <a href="#gcs"><i>05</i>GCs</a>
+      <a href="#legado"><i>06</i>Agenda</a>
+      <a href="#contribua"><i>07</i>Contribua</a>
+      <a href="#contato"><i>08</i>Contato</a>
+    </nav>
+    <p class="overlay__verse">“Sejam fortes e firmes.” <span>1 Co 15:58</span></p>
+  </div>
+
+  <!-- trilho lateral de seções (desktop) -->
+  <nav class="rail" aria-label="Navegação rápida">
+    <a href="#inicio" data-tip="Início"><svg class="i"><use href="#i-cross"/></svg></a>
+    <a href="#unidades" data-tip="Unidades"><svg class="i"><use href="#i-pin"/></svg></a>
+    <a href="#quem-somos" data-tip="Quem somos"><svg class="i"><use href="#i-heart"/></svg></a>
+    <a href="#ministerios" data-tip="Ministérios"><svg class="i"><use href="#i-users"/></svg></a>
+    <a href="#gcs" data-tip="GCs"><svg class="i"><use href="#i-house"/></svg></a>
+    <a href="#legado" data-tip="Agenda"><svg class="i"><use href="#i-cal"/></svg></a>
+    <a href="#contribua" data-tip="Contribua"><svg class="i"><use href="#i-coin"/></svg></a>
+    <a href="#contato" data-tip="Contato"><svg class="i"><use href="#i-chat"/></svg></a>
+  </nav>
+
+  <main>
+
+    <!-- ============ HERO 3D ============ -->
+    <section class="hero" id="inicio">
+      <canvas id="hero-3d" aria-hidden="true"></canvas>
+      <!-- sem WebGL: relevo em SVG -->
+      <svg class="hero__fallback" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+        <defs><radialGradient id="sun" cx="50%" cy="38%" r="40%"><stop offset="0" stop-color="#F5D56B" stop-opacity=".55"/><stop offset="1" stop-color="#F5D56B" stop-opacity="0"/></radialGradient></defs>
+        <rect width="1440" height="900" fill="url(#sun)"/>
+        <g fill="none" stroke="#D9C9AE" stroke-opacity=".35">
+          <path d="M0 640C300 600 520 420 720 380S1140 600 1440 620"/><path d="M0 680C300 640 520 470 720 430S1140 640 1440 660"/>
+          <path d="M0 720C300 690 520 530 720 490S1140 690 1440 700"/><path d="M0 760C300 740 520 600 720 560S1140 740 1440 745"/>
+          <path d="M0 805C320 790 520 680 720 645S1140 790 1440 790"/><path d="M0 850C320 845 540 770 720 745S1140 840 1440 840"/>
+        </g>
+        <use href="#mark" x="660" y="262" width="120" height="90" color="#B33A3F"/>
+      </svg>
+      <div class="hero__shade" aria-hidden="true"></div>
+
+      <div class="hero__content">
+        <p class="pill pill--glass reveal-up" style="--d:.1s"><span class="dot"></span>Pinhal · São João da Boa Vista · São Paulo</p>
+        <h1 class="hero__title">
+          <span class="hero__l1"><span>Vivendo o</span></span>
+          <span class="hero__l2" aria-label="Legado"><span>L</span><span>E</span><span>G</span><span>A</span><span>D</span><span>O</span></span>
+          <span class="hero__l3"><span>de <em>Cristo.</em></span></span>
+        </h1>
+        <p class="hero__sub reveal-up" style="--d:1.2s">Uma igreja <b>intencional</b>, <b>relacional</b> e <b>social</b>. Três casas, a mesma visão e um só propósito: anunciar o Evangelho, formar discípulos e viver uma fé que alcança vidas.</p>
+        <div class="hero__cta reveal-up" style="--d:1.35s">
+          <a href="#unidades" class="btn btn--yellow magnetic">Planeje sua visita <span class="btn__ico"><svg class="i"><use href="#i-arrow"/></svg></span></a>
+          <a href="#quem-somos" class="play"><span class="play__ring"><svg viewBox="0 0 24 24"><path d="M9 7v10l8-5z" fill="currentColor"/></svg></span>Conheça o nosso DNA</a>
+        </div>
+      </div>
+
+      <div class="hero__stats glass-dark reveal-up" style="--d:1.5s">
+        <div><svg class="i"><use href="#i-cross"/></svg><b><span data-count="6">6</span> anos</b><small>de história</small></div>
+        <div><svg class="i"><use href="#i-home"/></svg><b><span data-count="3">3</span> casas</b><small>uma só visão</small></div>
+        <div><svg class="i"><use href="#i-users"/></svg><b>2026</b><small>Ano da Unidade</small></div>
+      </div>
+
+      <a href="#unidades" class="next glass-dark reveal-up" style="--d:1.65s" aria-live="polite">
+        <span class="next__dot"></span>
+        <span><small>Próximo culto · <span class="js-unit-name">Pinhal</span></small><b id="next-when">Domingo · 19h</b></span>
+        <span class="next__count" id="next-count"></span>
+      </a>
+
+      <a href="#unidades" class="scroll-cue" aria-label="Rolar para os horários"><span>Role</span><i></i></a>
+    </section>
+
+    <!-- ============ UNIDADES / HORÁRIOS ============ -->
+    <section class="units" id="unidades">
+      <div class="wrap">
+        <div class="units__head">
+          <div>
+            <p class="eyebrow">Encontre a sua Legacy</p>
+            <h2 class="h2" data-split>Três casas, <em>uma família.</em></h2>
+          </div>
+          <div class="tabs" role="tablist" aria-label="Escolha a unidade">
+            <button role="tab" id="tab-pinhal" aria-controls="un-pinhal" aria-selected="true" data-unit="pinhal">E.S. do Pinhal</button>
+            <button role="tab" id="tab-sj" aria-controls="un-sj" aria-selected="false" data-unit="sj" tabindex="-1">São João da Boa Vista</button>
+            <button role="tab" id="tab-sp" aria-controls="un-sp" aria-selected="false" data-unit="sp" tabindex="-1">São Paulo</button>
+            <span class="tabs__ink" aria-hidden="true"></span>
+          </div>
+        </div>
+
+        <!-- Pinhal -->
+        <article class="unit is-active" id="un-pinhal" role="tabpanel" aria-labelledby="tab-pinhal">
+          <div class="unit__info">
+            <p class="unit__city">Espírito Santo do Pinhal <span>SP</span></p>
+            <ul class="days">
+              <li class="day" data-day="0"><b>Dom</b><span class="day__time">19h</span><span class="day__what">Culto da família</span></li>
+              <li class="day" data-day="2"><b>Ter</b><span class="day__time">19h30</span><span class="day__what">GCs nas casas</span></li>
+              <li class="day" data-day="4"><b>Qui</b><span class="day__time">19h30</span><span class="day__what">Culto de quinta <em>(não é opcional 😉)</em></span></li>
+            </ul>
+            <p class="unit__addr"><svg class="i"><use href="#i-pin"/></svg>R. Fioravante Bastone, 20 · Jardim Lélia</p>
+            <div class="unit__btns">
+              <a class="btn btn--dark btn--sm" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&amp;destination=R.%20Fioravante%20Bastone%2C%2020%20-%20Jardim%20L%C3%A9lia%2C%20Esp%C3%ADrito%20Santo%20do%20Pinhal%20-%20SP">Como chegar <span class="btn__ico"><svg class="i"><use href="#i-route"/></svg></span></a>
+              <a class="btn btn--ghost btn--sm" target="_blank" rel="noopener" href="https://www.instagram.com/batistalegacychurch/"><svg class="i"><use href="#i-ig"/></svg>@batistalegacychurch</a>
+            </div>
+          </div>
+          <div class="unit__map">
+            <iframe title="Mapa: Legacy Espírito Santo do Pinhal" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-src="https://www.google.com/maps?q=R.+Fioravante+Bastone,+20+-+Jardim+L%C3%A9lia,+Esp%C3%ADrito+Santo+do+Pinhal+-+SP&amp;z=16&amp;output=embed"></iframe>
+            <span class="unit__tag glass-light">Também é a casa do <b>Instituto Legacy</b></span>
+          </div>
+        </article>
+
+        <!-- São João -->
+        <article class="unit" id="un-sj" role="tabpanel" aria-labelledby="tab-sj" hidden>
+          <div class="unit__info">
+            <p class="unit__city">São João da Boa Vista <span>SP</span></p>
+            <ul class="days">
+              <li class="day" data-day="0"><b>Dom</b><span class="day__time">9h</span><span class="day__what">Culto de domingo</span></li>
+              <li class="day" data-day="3"><b>Qua</b><span class="day__time">19h30</span><span class="day__what">Culto One Connection</span></li>
+              <li class="day" data-day="6"><b>Sáb</b><span class="day__time">19h30</span><span class="day__what">Culto de sábado</span></li>
+            </ul>
+            <p class="unit__addr"><svg class="i"><use href="#i-pin"/></svg>R. Henrique Cabral de Vasconcelos, 2768 · Jardim São Nicolau</p>
+            <div class="unit__btns">
+              <a class="btn btn--dark btn--sm" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&amp;destination=R.%20Henrique%20Cabral%20de%20Vasconcelos%2C%202768%20-%20Jardim%20S%C3%A3o%20Nicolau%2C%20S%C3%A3o%20Jo%C3%A3o%20da%20Boa%20Vista%20-%20SP">Como chegar <span class="btn__ico"><svg class="i"><use href="#i-route"/></svg></span></a>
+              <a class="btn btn--ghost btn--sm" target="_blank" rel="noopener" href="https://www.instagram.com/batistalegacychurchsj/"><svg class="i"><use href="#i-ig"/></svg>@batistalegacychurchsj</a>
+            </div>
+          </div>
+          <div class="unit__map">
+            <iframe title="Mapa: Legacy São João da Boa Vista" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-src="https://www.google.com/maps?q=R.+Henrique+Cabral+de+Vasconcelos,+2768+-+Jardim+S%C3%A3o+Nicolau,+S%C3%A3o+Jo%C3%A3o+da+Boa+Vista+-+SP&amp;z=16&amp;output=embed"></iframe>
+            <span class="unit__tag glass-light">Quarta é dia de <b>One Connection</b></span>
+          </div>
+        </article>
+
+        <!-- São Paulo -->
+        <article class="unit" id="un-sp" role="tabpanel" aria-labelledby="tab-sp" hidden>
+          <div class="unit__info">
+            <p class="unit__city">São Paulo <span>SP</span></p>
+            <ul class="days">
+              <li class="day" data-day="0"><b>Dom</b><span class="day__time">18h</span><span class="day__what">Culto de domingo</span></li>
+              <li class="day" data-day="3"><b>Qua</b><span class="day__time">20h</span><span class="day__what">Culto de quarta</span></li>
+            </ul>
+            <p class="unit__addr"><svg class="i"><use href="#i-pin"/></svg>R. Itapinima, 172 · Vila Mangalot, Parque São Domingos</p>
+            <div class="unit__btns">
+              <a class="btn btn--dark btn--sm" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&amp;destination=R.%20Itapinima%2C%20172%20-%20Vila%20Mangalot%2C%20S%C3%A3o%20Paulo%20-%20SP">Como chegar <span class="btn__ico"><svg class="i"><use href="#i-route"/></svg></span></a>
+              <a class="btn btn--ghost btn--sm" target="_blank" rel="noopener" href="https://www.instagram.com/batistalegacychurchsaopaulo/"><svg class="i"><use href="#i-ig"/></svg>@batistalegacychurchsaopaulo</a>
+            </div>
+          </div>
+          <div class="unit__map">
+            <iframe title="Mapa: Legacy São Paulo" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-src="https://www.google.com/maps?q=R.+Itapinima,+172+-+Vila+Mangalot,+S%C3%A3o+Paulo+-+SP&amp;z=16&amp;output=embed"></iframe>
+            <span class="unit__tag glass-light">“Juntos somos <b>melhores!</b>”</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ QUEM SOMOS (manifesto) ============ -->
+    <section class="manifesto" id="quem-somos">
+      <div class="wrap manifesto__grid">
+        <div class="manifesto__text">
+          <p class="eyebrow eyebrow--light">Quem somos</p>
+          <p class="manifesto__lead" id="manifesto-text">O nome Legacy não foi escolhido por acaso. Ele representa o legado que Cristo nos confiou: anunciar o Evangelho, formar discípulos e viver uma fé que transforma e alcança vidas.</p>
+          <p class="manifesto__sub reveal">Uma igreja <b>saudável, bíblica e relevante</b>. Enquanto houver pessoas para amar, vidas para discipular e uma comunidade para servir, seguimos fazendo aquilo para o qual Deus nos chamou: construir um legado que glorifique a Cristo e alcance as próximas gerações.</p>
+          <p class="hand reveal">você faz parte dessa história ↘</p>
+        </div>
+        <div class="collage" aria-label="Fotos da Família Legacy">
+          <!-- PENDENTE: fotos do Instagram da igreja usadas como protótipo; pedir autorização / versões em alta -->
+          <figure class="polaroid p1" data-depth=".08"><img src="assets/img/ig-dna.jpg" alt="Culto da Legacy com mãos levantadas em adoração" loading="lazy" width="388" height="429"><figcaption>DNA da nossa igreja</figcaption></figure>
+          <figure class="polaroid p2" data-depth="-.06"><img src="assets/img/ig-abraco-2.jpg" alt="Abraço entre irmãos durante o culto" loading="lazy" width="388" height="432"><figcaption>ninguém caminha sozinho</figcaption></figure>
+          <figure class="polaroid p3" data-depth=".12"><img src="assets/img/ig-culto-quinta.jpg" alt="Jovens adorando no culto de quinta" loading="lazy" width="388" height="434"><figcaption>culto de quinta</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PILARES ============ -->
+    <section class="pillars" id="pilares">
+      <div class="wrap">
+        <div class="pillars__head">
+          <p class="eyebrow eyebrow--light">Os pilares que sempre nos definiram</p>
+          <h2 class="h2 h2--light" data-split>Intencional. Relacional. <em>Social.</em></h2>
+          <p class="pillars__hint">Toque nos cartões para virar ↻</p>
+        </div>
+        <div class="pillars__grid">
+          <button class="pcard pcard--fill reveal" style="--d:0s" aria-pressed="false">
+            <span class="pcard__in">
+              <span class="pcard__face pcard__front">
+                <span class="pcard__n">01</span>
+                <span class="pcard__word">Inten&shy;cional</span>
+                <span class="pcard__line">propósito com clareza</span>
+              </span>
+              <span class="pcard__face pcard__back">
+                <span class="pcard__q">“Porque acreditamos que cada pessoa é chamada a viver o propósito de Deus com clareza e compromisso.”</span>
+                <span class="pcard__n">01 · Intencional</span>
+              </span>
+            </span>
+          </button>
+          <button class="pcard reveal" style="--d:.12s" aria-pressed="false">
+            <span class="pcard__in">
+              <span class="pcard__face pcard__front">
+                <span class="pcard__n">02</span>
+                <span class="pcard__word">Rela&shy;cional</span>
+                <span class="pcard__line">comunhão e cuidado</span>
+              </span>
+              <span class="pcard__face pcard__back">
+                <span class="pcard__q">“Porque entendemos que o Reino é construído por meio de relacionamentos saudáveis, comunhão, discipulado e cuidado.”</span>
+                <span class="pcard__n">02 · Relacional</span>
+              </span>
+            </span>
+          </button>
+          <button class="pcard reveal" style="--d:.24s" aria-pressed="false">
+            <span class="pcard__in">
+              <span class="pcard__face pcard__front">
+                <span class="pcard__n">03</span>
+                <span class="pcard__word">Social</span>
+                <span class="pcard__line">amor que vira serviço</span>
+              </span>
+              <span class="pcard__face pcard__back">
+                <span class="pcard__q">“Porque a fé que professamos também se manifesta em amor prático, serviço e impacto na comunidade onde Deus nos plantou.”</span>
+                <span class="pcard__n">03 · Social</span>
+              </span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ VERSÍCULO ============ -->
+    <section class="verse" aria-label="Versículo do ano">
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__row"><span>2026 · Ano da Unidade · 2026 · Ano da Unidade · 2026 · Ano da Unidade · </span><span>2026 · Ano da Unidade · 2026 · Ano da Unidade · 2026 · Ano da Unidade · </span></div>
+      </div>
+      <figure class="verse__card reveal">
+        <blockquote>“Portanto, meus amados irmãos, sejam <em>fortes e firmes</em>. Trabalhem sempre para o Senhor com entusiasmo, pois vocês sabem que nada do que fazem para o Senhor é inútil.”</blockquote>
+        <figcaption>1 Coríntios 15:58</figcaption>
+      </figure>
+    </section>
+
+    <!-- ============ PASTORES ============ -->
+    <section class="pastors" id="pastores">
+      <div class="wrap">
+        <div class="pastors__head">
+          <p class="eyebrow">Liderança</p>
+          <h2 class="h2" data-split>Quem cuida da <em>Família Legacy</em></h2>
+          <p class="lead">A Batista Legacy Church tem uma liderança estabelecida e reconhecida. Toda comunicação oficial e todo direcionamento ministerial vêm dos nossos pastores e dos canais oficiais da igreja.</p>
+        </div>
+        <!-- PENDENTE: fotos dos casais pastorais e em qual unidade cada um atua -->
+        <div class="pastors__grid">
+          <article class="pastor reveal" style="--d:0s">
+            <div class="pastor__medal" aria-hidden="true"><span>A</span><span>M</span></div>
+            <p class="pastor__role">Casal pastoral</p>
+            <h3>Pr. Alex <i>&amp;</i> Pra. Michelle</h3>
+          </article>
+          <article class="pastor reveal" style="--d:.1s">
+            <div class="pastor__medal" aria-hidden="true"><span>M</span><span>C</span></div>
+            <p class="pastor__role">Casal pastoral</p>
+            <h3>Pr. Marcos <i>&amp;</i> Pra. Cris</h3>
+          </article>
+          <article class="pastor reveal" style="--d:.2s">
+            <div class="pastor__medal" aria-hidden="true"><span>A</span><span>E</span></div>
+            <p class="pastor__role">Casal pastoral</p>
+            <h3>Pr. Adriano <i>&amp;</i> Pra. Evelin</h3>
+          </article>
+        </div>
+        <div class="pastors__note reveal">
+          <p>“Se surgirem dúvidas ou qualquer questionamento, procure a nossa liderança. Estaremos sempre de <b>portas abertas</b> para conversar com transparência, amor e verdade.”</p>
+          <a href="#contato" class="btn btn--dark" data-msg="Falar com um pastor">Falar com um pastor <span class="btn__ico"><svg class="i"><use href="#i-arrow"/></svg></span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MINISTÉRIOS (carrossel 3D) ============ -->
+    <section class="mins" id="ministerios">
+      <div class="wrap mins__head">
+        <div>
+          <p class="eyebrow eyebrow--light">Ministérios</p>
+          <h2 class="h2 h2--light" data-split>Tem um lugar <em>pra você servir.</em></h2>
+        </div>
+        <div class="mins__ctrl">
+          <span class="mins__count"><b id="min-n">01</b> / <span id="min-total">07</span></span>
+          <button class="round" id="min-prev" aria-label="Ministério anterior"><svg class="i"><use href="#i-back"/></svg></button>
+          <button class="round round--yellow" id="min-next" aria-label="Próximo ministério"><svg class="i"><use href="#i-arrow"/></svg></button>
+        </div>
+      </div>
+
+      <!-- PENDENTE: descrições de Legacy One, Geração Legacy e Dança são provisórias; confirmar público e horários -->
+      <div class="stage" id="stage" aria-roledescription="carrossel">
+        <article class="mcard" data-i="0">
+          <img src="assets/img/gc-terca.jpg" alt="Mulheres sorrindo em um GC" loading="lazy">
+          <div class="mcard__body">
+            <span class="tag">Terças · 19h30 · nas casas</span>
+            <h3>GCs</h3>
+            <p>Grupos de Crescimento: lugares onde amizades são construídas, a fé cresce e ninguém caminha sozinho.</p>
+            <a href="#gcs" class="mcard__link">Saiba mais <svg class="i"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+        <article class="mcard" data-i="1">
+          <img src="assets/img/mulheres.jpg" alt="Mulheres conversando e sorrindo" loading="lazy">
+          <div class="mcard__body">
+            <span class="tag">Mulheres</span>
+            <h3>Florescer</h3>
+            <p>Encontros para as mulheres da Legacy florescerem em Cristo, com comunhão, louvor e cuidado.</p>
+            <a href="#contato" class="mcard__link" data-msg="Quero servir em um ministério">Quero participar <svg class="i"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+        <article class="mcard" data-i="2">
+          <img src="assets/img/jovens.jpg" alt="Jovens adorando com as mãos levantadas" loading="lazy">
+          <div class="mcard__body">
+            <span class="tag">Legacy One</span>
+            <h3>Legacy One</h3>
+            <p>Gente que adora, serve e faz barulho bom em todo encontro da família Legacy.</p>
+            <a href="#contato" class="mcard__link" data-msg="Quero servir em um ministério">Quero participar <svg class="i"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+        <article class="mcard" data-i="3">
+          <img src="assets/img/estudo.jpg" alt="Pessoas estudando a Bíblia juntas" loading="lazy">
+          <div class="mcard__body">
+            <span class="tag">Pinhal e São João</span>
+            <h3>Geração Legacy</h3>
+            <p>A próxima geração crescendo no legado de Cristo, aprendendo a Palavra e caminhando junto.</p>
+            <a href="#contato" class="mcard__link" data-msg="Quero servir em um ministério">Quero participar <svg class="i"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+        <article class="mcard" data-i="4">
+          <img src="assets/img/kids.jpg" alt="Crianças sorrindo para a câmera" loading="lazy">
+          <div class="mcard__body">
+            <span class="tag">Crianças · projeto social</span>
+            <h3>Instituto Legacy</h3>
+            <p>O pilar social em ação: amor prático e cuidado com as crianças, na R. Fioravante Bastone, 20, em Pinhal.</p>
+            <a href="#contato" class="mcard__link" data-msg="Quero servir em um ministério">Quero ajudar <svg class="i"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+        <article class="mcard" data-i="5">
+          <img src="assets/img/louvor.jpg" alt="Igreja adorando com luzes quentes no palco" loading="lazy">
+          <div class="mcard__body">
+            <span class="tag">Pinhal e São João</span>
+            <h3>Ministério de Dança</h3>
+            <p>Adoração que se move: a dança como expressão de louvor e de testemunho.</p>
+            <a href="#contato" class="mcard__link" data-msg="Quero servir em um ministério">Quero participar <svg class="i"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+        <article class="mcard" data-i="6">
+          <img src="assets/img/comunidade.jpg" alt="Amigos abraçados olhando o pôr do sol" loading="lazy">
+          <div class="mcard__body">
+            <span class="tag">Venha o teu Reino</span>
+            <h3>Acampamento Legacy</h3>
+            <p>Dias fora da rotina para buscar a Deus, fazer amigos para a vida e voltar diferente.</p>
+            <a href="https://www.instagram.com/batistalegacychurchsj/" target="_blank" rel="noopener" class="mcard__link">Ver no Instagram <svg class="i"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+      </div>
+      <div class="dots" id="min-dots" aria-hidden="true"></div>
+    </section>
+
+    <!-- ============ GCs ============ -->
+    <section class="gcs" id="gcs">
+      <div class="wrap gcs__grid">
+        <div class="gcs__art" aria-hidden="true">
+          <svg class="town" viewBox="0 0 560 420">
+            <path class="town__road" d="M70 330 C150 290 190 300 250 262 S360 210 420 236 S500 170 520 120"/>
+            <!-- casa isométrica: telhado + 2 faces + janela -->
+            <g class="house" transform="translate(40 250)"><path class="h-l" d="M0 40 L50 65 L50 120 L0 95Z"/><path class="h-r" d="M50 65 L100 40 L100 95 L50 120Z"/><path class="h-roof" d="M-6 40 L50 4 L106 40 L50 68Z"/><rect class="win" x="64" y="100" width="18" height="18" transform="skewY(-26.5)"/></g>
+            <g class="house" transform="translate(190 190)"><path class="h-l" d="M0 40 L50 65 L50 120 L0 95Z"/><path class="h-r" d="M50 65 L100 40 L100 95 L50 120Z"/><path class="h-roof" d="M-6 40 L50 4 L106 40 L50 68Z"/><rect class="win" x="64" y="100" width="18" height="18" transform="skewY(-26.5)"/></g>
+            <g class="house" transform="translate(330 150)"><path class="h-l" d="M0 40 L50 65 L50 120 L0 95Z"/><path class="h-r" d="M50 65 L100 40 L100 95 L50 120Z"/><path class="h-roof" d="M-6 40 L50 4 L106 40 L50 68Z"/><rect class="win" x="64" y="100" width="18" height="18" transform="skewY(-26.5)"/></g>
+            <g class="house" transform="translate(440 40)"><path class="h-l" d="M0 40 L50 65 L50 120 L0 95Z"/><path class="h-r" d="M50 65 L100 40 L100 95 L50 120Z"/><path class="h-roof" d="M-6 40 L50 4 L106 40 L50 68Z"/><rect class="win" x="64" y="100" width="18" height="18" transform="skewY(-26.5)"/></g>
+          </svg>
+          <figure class="gcs__photo"><img src="assets/img/gc-terca.jpg" alt="" loading="lazy" width="800" height="717"></figure>
+        </div>
+        <div class="gcs__text">
+          <p class="eyebrow">GCs · Grupos de Crescimento</p>
+          <h2 class="h2" data-split>A igreja vivendo <em>de casa em casa.</em></h2>
+          <p class="lead">Os GCs são lugares onde amizades são construídas, a fé cresce e ninguém caminha sozinho. Um lanche, a Palavra aberta, oração de verdade e gente que vai lembrar do seu nome.</p>
+          <ul class="gcs__facts">
+            <li><svg class="i"><use href="#i-cal"/></svg><span><b>Toda terça-feira</b> a partir das 19h30</span></li>
+            <li><svg class="i"><use href="#i-house"/></svg><span><b>Nas casas</b> da Família Legacy</span></li>
+            <li><svg class="i"><use href="#i-heart"/></svg><span><b>Pra todo mundo</b>: membro, visitante, curioso</span></li>
+          </ul>
+          <a href="#contato" class="btn btn--dark magnetic" data-msg="Quero entrar em um GC">Quero participar de um GC <span class="btn__ico"><svg class="i"><use href="#i-arrow"/></svg></span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LINHA DO LEGADO (agenda) ============ -->
+    <section class="legacy" id="legado">
+      <div class="legacy__pin">
+        <div class="legacy__head wrap">
+          <div>
+            <p class="eyebrow eyebrow--light">Agenda · linha do legado</p>
+            <h2 class="h2 h2--light">Você faz parte <em>dessa história.</em></h2>
+          </div>
+          <div class="legacy__bar" aria-hidden="true"><span id="legacy-bar"></span></div>
+        </div>
+        <div class="legacy__track" id="legacy-track">
+          <article class="ev ev--type">
+            <p class="ev__date">2020</p>
+            <h3>O começo</h3>
+            <p>Deus coloca no coração a obra que hoje chamamos de Legacy. “Aquele que iniciou esta obra continuará conduzindo cada passo.”</p>
+          </article>
+          <article class="ev ev--type ev--outline">
+            <p class="ev__date">2024 · 2025</p>
+            <h3>Acampamentos</h3>
+            <p>Acampamento Legacy 2024 e ACAMPA25: <i>Venha o teu Reino</i>.</p>
+          </article>
+          <article class="ev ev--type ev--yellow">
+            <p class="ev__date">2026</p>
+            <h3>Ano da Unidade</h3>
+            <p>Seguimos firmes no mesmo lugar, com a mesma visão, os mesmos valores e o mesmo propósito.</p>
+          </article>
+          <article class="ev">
+            <img src="assets/img/ig-arraia.jpg" alt="Arte do Arraiá Florescer" loading="lazy" width="388" height="515">
+            <div class="ev__body"><p class="ev__date"><b>18</b> jul</p><h3>Arraiá Florescer</h3><p>15h · Instituto Legacy, Pinhal</p></div>
+          </article>
+          <article class="ev">
+            <img src="assets/img/ig-6-anos.jpg" alt="Arte do culto de 6 anos da Legacy" loading="lazy" width="388" height="515">
+            <div class="ev__body"><p class="ev__date"><b>08</b> ago</p><h3>6 anos de Legacy</h3><p>19h30 · com o Apóstolo Djalma Lúcio</p></div>
+          </article>
+          <article class="ev">
+            <img src="assets/img/ig-florescer.jpg" alt="Arte do Encontro Florescer" loading="lazy" width="388" height="426">
+            <div class="ev__body"><p class="ev__date"><b>26</b> set</p><h3>Encontro Florescer</h3><p>19h30 · Legacy São João, com Isís Aguiar</p></div>
+          </article>
+          <article class="ev ev--type ev--wine">
+            <p class="ev__date"><b>11</b> out</p>
+            <h3>Santa Ceia + Batismo</h3>
+            <p>Um domingo para lembrar: mesa do Senhor e novas vidas descendo às águas.</p>
+          </article>
+          <article class="ev ev--soon">
+            <img src="assets/img/ig-algo-historico.jpg" alt="Arte: Algo histórico vai acontecer aqui na Legacy" loading="lazy" width="388" height="451">
+            <div class="ev__body">
+              <p class="ev__stamp">Comunicado oficial</p>
+              <h3>Algo histórico vai acontecer</h3>
+              <p>Fique de olho nos canais oficiais da Legacy.</p>
+              <a href="https://www.instagram.com/batistalegacychurch/" target="_blank" rel="noopener" class="btn btn--yellow btn--sm">Acompanhar <span class="btn__ico"><svg class="i"><use href="#i-ig"/></svg></span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTRIBUA ============ -->
+    <section class="give" id="contribua">
+      <div class="wrap give__grid">
+        <div class="give__text">
+          <p class="eyebrow eyebrow--light">Contribua</p>
+          <h2 class="h2 h2--light" data-split>Construindo <em>um legado.</em></h2>
+          <p class="lead lead--light">Um terreno, um sonho e uma família inteira construindo junto. Faça parte desse projeto e envie a sua oferta de amor. Cada semente conta, porque nada do que fazemos para o Senhor é inútil.</p>
+          <ol class="steps">
+            <li><b>1</b>Abra o app do seu banco e escolha PIX</li>
+            <li><b>2</b>Cole a chave (é um e-mail)</li>
+            <li><b>3</b>Confira o nome e envie com alegria 💛</li>
+          </ol>
+          <!-- PENDENTE: chave PIX de dízimos e ofertas gerais (por unidade?) -->
+          <p class="give__note">Dízimos e ofertas: fale com a liderança da sua unidade.</p>
+        </div>
+        <div class="pixcard-wrap">
+          <div class="pixcard" id="pixcard">
+            <img src="assets/img/ig-terreno.jpg" alt="" class="pixcard__bg" loading="lazy">
+            <span class="pixcard__shine" aria-hidden="true"></span>
+            <div class="pixcard__top">
+              <svg class="pixcard__mark" aria-hidden="true"><use href="#mark"/></svg>
+              <span>Projeto</span>
+            </div>
+            <p class="pixcard__title">Construindo<br>um legado</p>
+            <div class="pixcard__key">
+              <small>Chave PIX · e-mail</small>
+              <code id="pix-key">construindoumlegadoblc@gmail.com</code>
+            </div>
+            <button class="btn btn--yellow pixcard__btn" id="copy-pix">Copiar chave PIX <span class="btn__ico"><svg class="i"><use href="#i-copy"/></svg></span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRIMEIRA VEZ (FAQ) ============ -->
+    <section class="faq" id="primeira-vez">
+      <div class="wrap faq__grid">
+        <div>
+          <p class="eyebrow">Primeira vez?</p>
+          <h2 class="h2" data-split>Relaxa. <em>A gente te recebe.</em></h2>
+          <p class="hand hand--dark">venha como você está</p>
+        </div>
+        <div class="faq__list">
+          <details class="qa" open>
+            <summary>Como é um culto na Legacy?<svg class="i"><use href="#i-plus"/></svg></summary>
+            <p>Louvor, a Palavra de Deus e gente de verdade. Chegue alguns minutos antes, fique à vontade e, se quiser, se apresente: vamos ficar felizes em te conhecer.</p>
+          </details>
+          <details class="qa">
+            <summary>Preciso me vestir de algum jeito?<svg class="i"><use href="#i-plus"/></svg></summary>
+            <p>Não. Venha como você está. O que importa é o coração.</p>
+          </details>
+          <details class="qa">
+            <summary>Qual unidade fica mais perto de mim?<svg class="i"><use href="#i-plus"/></svg></summary>
+            <p>Temos casas em <a href="#unidades" data-unit-link="pinhal">Espírito Santo do Pinhal</a>, <a href="#unidades" data-unit-link="sj">São João da Boa Vista</a> e <a href="#unidades" data-unit-link="sp">São Paulo</a>. Toque na cidade para ver os horários e o mapa.</p>
+          </details>
+          <details class="qa">
+            <summary>Como faço para entrar em um GC?<svg class="i"><use href="#i-plus"/></svg></summary>
+            <p>Mande uma mensagem pelo formulário abaixo escolhendo “Quero entrar em um GC”. A gente te indica o grupo mais perto da sua casa.</p>
+          </details>
+          <details class="qa">
+            <summary>Posso conversar com um pastor?<svg class="i"><use href="#i-plus"/></svg></summary>
+            <p>Claro. Nossos pastores estão de portas abertas. Escreva para a gente e marcamos um café.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTATO / ORAÇÃO ============ -->
+    <section class="contact" id="contato">
+      <div class="wrap contact__grid">
+        <div class="contact__text">
+          <p class="eyebrow eyebrow--light">Fale com a gente</p>
+          <h2 class="h2 h2--light" data-split>Podemos orar <em>por você?</em></h2>
+          <p class="lead lead--light">Pedido de oração, primeira visita, GC ou uma conversa com um pastor. Escreva do seu jeito: a mensagem chega direto para a equipe da unidade que você escolher.</p>
+          <div class="contact__ig">
+            <a href="https://ig.me/m/batistalegacychurch" target="_blank" rel="noopener"><svg class="i"><use href="#i-ig"/></svg>Pinhal</a>
+            <a href="https://ig.me/m/batistalegacychurchsj" target="_blank" rel="noopener"><svg class="i"><use href="#i-ig"/></svg>São João</a>
+            <a href="https://ig.me/m/batistalegacychurchsaopaulo" target="_blank" rel="noopener"><svg class="i"><use href="#i-ig"/></svg>São Paulo</a>
+          </div>
+        </div>
+        <form class="form glass-dark" id="form-contato">
+          <div class="choices" role="radiogroup" aria-label="Assunto">
+            <label><input type="radio" name="tipo" value="Pedido de oração" checked><span>Pedido de oração</span></label>
+            <label><input type="radio" name="tipo" value="Quero visitar"><span>Quero visitar</span></label>
+            <label><input type="radio" name="tipo" value="Quero entrar em um GC"><span>Entrar em um GC</span></label>
+            <label><input type="radio" name="tipo" value="Quero servir em um ministério"><span>Servir</span></label>
+            <label><input type="radio" name="tipo" value="Falar com um pastor"><span>Falar com um pastor</span></label>
+          </div>
+          <div class="row">
+            <label class="field"><span>Seu nome</span><input name="nome" required autocomplete="name" placeholder="Como podemos te chamar?"></label>
+            <label class="field"><span>Unidade</span>
+              <select name="unidade" id="form-unit">
+                <option value="pinhal">E.S. do Pinhal</option>
+                <option value="sj">São João da Boa Vista</option>
+                <option value="sp">São Paulo</option>
+              </select>
+            </label>
+          </div>
+          <label class="field"><span>WhatsApp <small>(opcional)</small></span><input name="tel" type="tel" autocomplete="tel" inputmode="tel" placeholder="(19) 9 0000-0000"></label>
+          <label class="field"><span>Mensagem</span><textarea name="msg" rows="4" required placeholder="Escreva aqui…"></textarea></label>
+          <button class="btn btn--yellow btn--block" type="submit">Enviar mensagem <span class="btn__ico"><svg class="i"><use href="#i-arrow"/></svg></span></button>
+          <p class="form__hint" id="form-hint">Ao enviar, copiamos a sua mensagem e abrimos o direct da unidade escolhida no Instagram. É só colar e enviar.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="foot">
+    <div class="foot__word" aria-hidden="true"><span id="foot-word">LEGACY<svg><use href="#mark"/></svg>LEGACY</span></div>
+    <div class="wrap foot__grid">
+      <div class="foot__brand">
+        <a href="#inicio" class="brand brand--light"><svg class="brand__mark" aria-hidden="true"><use href="#mark"/></svg><span class="brand__txt"><small>Batista</small>Legacy · Church</span></a>
+        <p>Vivendo o legado de Cristo de forma intencional, relacional e social.</p>
+      </div>
+      <div class="foot__col">
+        <h4>Pinhal</h4>
+        <p>R. Fioravante Bastone, 20<br>Jardim Lélia</p>
+        <p class="foot__times">Dom 19h · Qui 19h30<br>GCs ter 19h30</p>
+        <a href="https://www.instagram.com/batistalegacychurch/" target="_blank" rel="noopener">@batistalegacychurch</a>
+      </div>
+      <div class="foot__col">
+        <h4>São João da Boa Vista</h4>
+        <p>R. Henrique Cabral de Vasconcelos, 2768<br>Jardim São Nicolau</p>
+        <p class="foot__times">Dom 9h · Qua 19h30 · Sáb 19h30</p>
+        <a href="https://www.instagram.com/batistalegacychurchsj/" target="_blank" rel="noopener">@batistalegacychurchsj</a>
+      </div>
+      <div class="foot__col">
+        <h4>São Paulo</h4>
+        <p>R. Itapinima, 172<br>Vila Mangalot, Pq. São Domingos</p>
+        <p class="foot__times">Dom 18h · Qua 20h</p>
+        <a href="https://www.instagram.com/batistalegacychurchsaopaulo/" target="_blank" rel="noopener">@batistalegacychurchsaopaulo</a>
+      </div>
+    </div>
+    <div class="wrap foot__bottom">
+      <p>© <span id="ano">2026</span> Batista Legacy Church · 2026, Ano da Unidade</p>
+      <a href="#inicio" class="foot__top">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <!-- PENDENTE: sem WhatsApp oficial; o botão abre o direct do Instagram da unidade escolhida -->
+  <a class="fab" id="fab" href="https://ig.me/m/batistalegacychurch" target="_blank" rel="noopener" aria-label="Fale com a Legacy"><svg class="i"><use href="#i-chat"/></svg><span>Fale com a gente</span></a>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/js/vendor/three.min.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

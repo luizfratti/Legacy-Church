@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://batista-legacy-church.vercel.app/sitemap.xml
